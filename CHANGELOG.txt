@@ -1,0 +1,369 @@
+3.2.0
+-----
+- updated French translation
+- added slider for columns width on some charts
+
+3.1.0
+-----
+- updated spell checker dictionaries
+- added spell checking for Dutch and Polish
+- added hot keys
+- added drag-n-drop auto scrolling in view "Manage Chapters and Scenes"
+- added a new view called "reading view" 
+- the displayed columns for the view "manage chapters and scenes"
+  can be set directly now
+- switching views is more comfortable now
+- the view options are inside the view now
+- the chronological view can now have either a vertical or a horizontal layout
+- added strand to goto navigation
+- added hot keys for scrolling (ALT-left/-right/-up/-down)
+- added vertical mouse scrolling (Ctrl-Mouse Wheel)
+- added dialog "file information"
+- added manual (PDF, offline)
+- genders: the life cycles can be set now for each custom gender
+- added "rename file"
+- improved dialog "file save as"
+
+3.0.0
+-----
+- plain text export: the whole book can be exported as plain text now.
+- Memoria: a new Tool called "Memoria" shows the relations between objects (uses
+  the framework JUNG)
+- object can be copied now either in the manage object dialogs or
+  the tree (hot key Ctrl-C)
+- the hot key "delete" deletes an object now in the manage object dialogs
+  or in the tree
+- object lists allow multiple selection for deletion now
+- export / print: notes are now exported resp. printed
+- export / print: CSV export has been improved
+- export: the folder where reports are exported to can be set now
+- locations: cities and countries can be renamed now.
+- tags: tags can be assigned to scenes (from a start scene to an end scene),
+  locations and characters. A table overview shows all assigned objects.
+- tags: tag category can be renamed
+- tags: tags can be added from a tag collection
+- items: items can be assigned to scenes (from a start scene to an end scene),
+  locations and characters. An table overview shows all assigned objects.
+- items: item category can be renamed
+- items: items can be added from a item collection
+- manage chapters and scenes: more than just one line is shown now for long titles
+- ideas: a flash of inspiration can be added very quickly now
+- zoom factors can be set in preferences now for each view
+- the context menu for the object tree shows all possible menus now
+- completed tool tips
+- quick info looks nicer now
+- a copy / paste context menu has been added for text fields 
+- updated JFreeChart to version 1.0.13
+- updated JasperReports to version 4.1.1
+- updated H2 to version 1.3.159
+- updated MigLayout to version 4.0
+- updated JCalendar to version 1.4
+
+2.1.17
+------
+- added Polish translation
+
+2.1.15
+------
+- added management for global ideas
+- new genders can be added now
+- a scene can have a relative date now (relative to another scene)
+- the quick information doesn't show empty fields anymore
+- in the chronological view the difference between scenes can be shown now
+- minor layout fixes
+- better layout support for screens with large resolutions
+- improved CSV export
+- updated JasperReports to version 3.7.4
+- updated internal Database H2 to version 1.2.140
+- updated iText to version 5.0.3
+- updated JCalendar to version 1.3.3
+- updated MigLayout to version 3.7.3.1
+- updated TinyLaF, TonicLf
+
+2.1.14
+------
+- added open recent files
+- added "save as..."
+- improved the manage dialogs
+- added "re-open the last file"
+- added command line option for opening a project file  
+- added the possibility to create custom genders
+- added an ideas list to manage notes
+
+2.1.13
+------
+- switched to "simple files" instead of using projects
+- added Russian translation
+- added Czech translation
+- added Simplified Chinese translation
+- minor bug fixes
+- updated H2 database engine
+- updated layout manager MigLayout 
+
+2.1.12
+------
+- new logo
+- some translations has been updated
+
+2.1.11
+------
+- implemented "quick navigation" for chapters and scenes
+- most dialogs are non-modal now (don't prevent the
+  workflow on the application anymore)
+- most windows are re-sizable now
+- after editing a scene, the refreshing is more accurate now 
+- the dictionaries has been updated
+- added predefined color for strands and characters
+- added support for dark colors (strands and characters)
+- some labels and panels are pastel-colored now
+
+2.1.10
+------
+- added a so called "translator mode"
+- implemented feature request #2455821: Use JFreeChart for Statistics 
+- implemented feature request #2363392: Improve adding character / locations links
+- improved refreshing mechanism
+- improved object tree
+- translated into Traditional Chinese
+- translated into Japanese
+
+2.1.9
+-----
+- undo / redo is now supported for text areas and text fields
+- translated into Greek
+- improved object tree
+- fixed bug #2354336: Export of Character List fails
+- the French translation has been completed
+
+2.1.8
+-----
+- a tree is used instead of the lists (characters, locations etc.)
+- the layout has been improved
+- characters can be grouped now (central characters and minor characters)
+- added Nimbus Look and Feel
+- implemented feature request #2174275: Notes for scenes, characters etc.
+- translated to Swedish
+
+2.1.7
+-----
+- implemented feature request #1881265: column order of strands
+- exported files can be opened directly now
+- implemented feature request #2174280: Task List
+- the manage lists for characters, locations etc. has been improved
+- French translation has been completed
+
+2.1.6
+-----
+- improved layout
+- implemented feature request #2200812: scale for book and manage view
+- translated into Finnish
+- implemented feature request #1881262: navigation: go to a date
+- improved date localization
+- implemented feature request #1933354: navigation: go to a chapter number
+- implemented feature request #2060580: Scene text import / export
+- updated H2 Database Engine to version 1.0.79 (2008-09-26)
+
+2.1.5
+-----
+- bug fix: application didn't start under certain circumstances
+
+2.1.4
+-----
+- improved focus handling for dialogs
+- the information window can be resized now
+- implemented feature request #2043691: Save As
+- translated into Hebrew
+- implemented draft of feature request #2113136 to showing status based colors.
+- implemented feature request #2071595: Add character / location on scene dialog.
+- on the location list the country is also shown now
+- implemented feature request #1936260: Location sorting
+- implemented plugin mechanism for jasper reports 
+- updated H2 Database Engine to version 1.0.78 (2008-08-28)
+
+2.1.3
+-----
+- a time stamp has been added to export file names
+- added ODT export (OpenDocument Text, Open Office)
+- fixed bug #2049282: Text is cut off on export
+- updated H2 Database Engine to version 1.0.77 (2008-08-16)
+- added Dutch translation
+
+2.1.2
+-----
+- improved export layout and fixed a layout problem 
+- added part navigation to the tool bar
+- updated MigLayout Manager to version 3.5.5
+- fixed layout bug in chrono view
+- fixed content refresh bug
+- completed Danish translation
+
+2.1.1
+-----
+- moved part link from scene to chapter
+- improved layout and interface
+- added many context menus
+- added a new view: manage chapters and scenes (with drag-n-drop support)
+- added field title to scene
+- updated H2 Database Engine to version 1.0.75 (2008-07-14)
+
+2.1.0
+-----
+- added chapters: each scene can be assigned to a chapter
+- on the book view, only chapters and there assigned scenes are shown 
+- scene numbers are not mandatory anymore
+- chapter numbers are not mandatory anymore
+- improved layout and menu
+- improved export reports
+- on both views, the summary can be edited now
+- the view, the part and the view size are stored in the project
+  at closing and restored at opening (feature request #2014355)
+- locations are linked to Google Maps now (over the context menu)
+
+2.0.12
+------
+- added user dictionary for spell check (feature request #2009447)
+- on the quick info a dead character is marked with a "+" now
+- the age of a dead character is calculated correct now
+- added address field to location (feature request #2009273)
+- renamed chapter to scene
+
+2.0.11
+------
+- added the day names on both chronological and book view
+- updated H2 Database Engine to Version 1.0.74 (2008-06-21)
+- the tool tip text was shortened for long descriptions
+- the layout has been improved
+- the input verifier has been improved 
+- the default font can be changed now
+- implemented spell checking (feature request #1894440)
+
+2.0.10
+------
+- bug fix for Substance Look and Feel
+- Brazilian Portuguese translation has been updated
+
+2.0.9
+-----
+- translated into French
+- translated into Italian
+- the age has been added on the character tool tip information
+- added tool tips on various labels
+- added Substance Look and Feel
+- implemented feature request #1982372: Character Color Coding
+
+2.0.8
+-----
+- implemented feature request #1912757: TODO flag for chapters
+- implemented feature request #1976414: Improve Sidebar (behavior on refresh)
+- updated H2 Database Engine to version 1.0.73 (2008-05-31)
+
+2.0.7
+-----
+- implemented feature request #1963013: "Add chapters" button on book view
+- implemented feature request #1970922: added date chooser to birthday
+  resp. day of death field
+- implemented feature request #1964430: Make Last Name Non-Mandatory
+- updated H2 Database Engine to version 1.0.72 (2008-05-10)
+- updated JasperReports to version 3.0.0
+
+2.0.6
+-----
+- translated to Brazilian Portuguese
+- implemented feature request #1951890: calendar widget for dates
+- implemented feature request #1963358: Add Toggle Panel button
+- improved error message dialog
+- improved DB Model (feature request #1964490: DB: enlarge length of summary field)
+  the DB field length of chapter summary, person description and location description
+  was increased to 8192
+- improved edit chapter dialog
+
+2.0.3
+-----
+- translated into Danish
+- bug fix: the help menu works under Linux now
+
+2.0.2
+-----
+- translated into Spanish
+- added some missing German translations
+- updated H2 Database Engine to version 1.0.71 (2008-04-25)
+
+2.0
+---
+- added 6 chart reports:
+  - Appearance of Characters by Chapter
+  - Who is when where?
+  - Appearance of Characters by Date
+  - Usage of Strands by Date
+  - Occurrence of Characters
+  - Occurrence of Locations
+- added 6 export reports, supported formats: text, PDF, HTML, CSV, RTF
+  - summary book
+  - character list
+  - location list
+  - CSV summary book
+  - CSV character list
+  - CSV location list
+- added backup / restore tool 
+- updated H2 Database Engine to '1.0.68 (2008-03-15)' 
+- implemented feature request #1914383: Context Menu on the info panels
+- implemented feature request #1937130: Move warnings to the status bar
+- use the term "character" instead of "person" now, which is more common.
+- implemented feature request #1946653: show current part at the title
+
+1.1
+---
+- implemented feature request #1912682: overview list: open edit on
+  mouse double click
+- implemented feature request #1912759: Quick information panel
+- fixed bug #1906257: missing German translations
+- summary text field height is dynamic now on the book view 
+
+1.0
+---
+- added "check for updates" on start
+- fixed bug #1881249: bug in refresh
+- fixed bug #1881252: input field length is not checked
+- added tonic look and feel
+- added tiny look and feel
+- fixed bug #1893592: info panel hides the rest after project opened
+
+0.4.3
+-----
+- quick bug fix for the not shown welcome dialog
+
+0.4.2
+-----
+- birthday of a person is not a mandatory field anymore
+- added home page link
+- added online contact
+- online help works now
+- save and restore window location, size and maximize state
+- improved working area: the time line is a row header now
+- improved tool bar
+
+0.4.1
+-----
+- improved manage dialogs (for persons, locations and parts)
+- improved layout for time line panel
+- improved layout for edit chapter dialog
+- improved layout for edit location dialog
+- added icons (for application and windows menu / desktop)
+
+0.4
+---
+- improved layout (dynamic re-size on the chronological view)
+- added key support for dialogs (enter / ESC)
+- added quick info on info panel (persons and locations) [#1884686]
+- added tool bar with very nice icons :-)
+- added some menu icons
+- info panel status (shown / hidden) is saved now when switching view
+- added menu show / hide info panel
+- fixed bug #1885277 (save info panel status)
+- added split panel for info / warnings
+- added line wrap on description text area (person and location dialog)
+- some minor bug fixes
+
+0.3.1
+-----
+- fixed bug #1884312 (exception after start)

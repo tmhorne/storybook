@@ -1,0 +1,63 @@
+<?xml version="1.0"?>
+<!DOCTYPE storybook PUBLIC "-//StorYBook//DTD Configuration 1.0//EN"
+	"resources/storybook-configuration-1-0.dtd">
+
+<storybook>
+	<settings>
+		<!-- Settings should include the following parameters: key: the name of 
+			the key as set in the settings enum type value: the value -->
+		<setting>
+			<key>resourceDir</key>
+			<value>resources</value>
+		</setting>
+		<setting>
+			<key>testKey</key>
+			<value>test value 123</value>
+		</setting>
+	</settings>
+	<jasper-reports>
+		<!-- Reports should include the following parameters: file: the name of 
+			the compiled Jasper report, minus the .jasper extension key: the resource 
+			key the report should be shown with as its name. -->
+		<report>
+			<file>person_list</file>
+			<key>msg.jasper.person.list</key>
+		</report>
+		<report>
+			<file>location_list</file>
+			<key>msg.jasper.location.list</key>
+		</report>
+		<report>
+			<file>tag_list</file>
+			<key>msg.jasper.tag.list</key>
+		</report>
+		<report>
+			<file>item_list</file>
+			<key>msg.jasper.item.list</key>
+		</report>
+		<report>
+			<file>book</file>
+			<key>msg.jasper.book.summary</key>
+		</report>
+		<report>
+			<file>csv_person_list</file>
+			<key>msg.jasper.csv.person.list</key>
+		</report>
+		<report>
+			<file>csv_location_list</file>
+			<key>msg.jasper.csv.location.list</key>
+		</report>
+		<report>
+			<file>csv_tag_list</file>
+			<key>msg.jasper.csv.tag.list</key>
+		</report>
+		<report>
+			<file>csv_item_list</file>
+			<key>msg.jasper.csv.item.list</key>
+		</report>
+		<report>
+			<file>csv_book</file>
+			<key>msg.jasper.csv.book.summary</key>
+		</report>
+	</jasper-reports>
+</storybook>

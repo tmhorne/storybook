@@ -1,0 +1,6 @@
+
+Please read the section "Installation" on 
+
+http://storybook.intertec.ch
+
+http://storybook.intertec.ch/?g_page=installation&g_lang=en

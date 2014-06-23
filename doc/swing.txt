@@ -1,0 +1,52 @@
+dialog without decoration
+
+dialog.setUndecorated(true); 
+
+
+label with vertical text
+
+JLabel lb = new JLabel(strand.toString());
+lb.setUI( new VerticalLabelUI(false) );
+
+
+refresh in AbstractManageDialog
+
+public void refresh(){
+	panel.removeAll();
+	internalPanel.removeAll();
+	headerPanel.removeAll();
+	initInternalGUI();
+	internalPanel.validate();
+	internalPanel.repaint();
+	headerPanel.validate();
+	headerPanel.repaint();
+	panel.validate();
+	panel.repaint();
+	pack();
+}
+
+
+making a component getting input from the keyboard and the mouse
+this.setEnabled(true);
+this.setFocusable(true);
+this.setOpaque(true);
+
+
+JOptionPane.showMessageDialog(
+		this,
+		"The Project '" + prjName + "' exists already."
+		+ "\nIf you want to override it, please delete the project first.",
+		"Project exists",
+		JOptionPane.ERROR_MESSAGE);
+
+		
+int n = JOptionPane.showConfirmDialog(
+		getThis(),
+		"Do you want to remove this chapter?",
+		"Remove Chapter",
+		JOptionPane.YES_NO_OPTION);
+if (n == JOptionPane.NO_OPTION
+		|| n == JOptionPane.CLOSED_OPTION) {
+	SwingTools.setStatusbarMessage();
+	return;
+}

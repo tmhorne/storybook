@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<project type="java bundle">
+<settings name="storybook">
+<replacespace enable="false" string="_"/>
+<emptykeys enable="true"/>
+<saveWYSIWYGmode enable="true"/>
+</settings>
+<files workdirectory="C:\Users\martin\workspace\storybook\resources">
+<file filename="messages_da_DK.properties">
+<properties encoding="UTF-8" visible="true" withescape="true"/>
+</file>
+<file filename="messages_de_DE.properties">
+<properties encoding="UTF-8" visible="true" withescape="true"/>
+</file>
+<file filename="messages_en_US.properties">
+<properties encoding="UTF-8" visible="true" withescape="true"/>
+</file>
+<file filename="messages_es_ES.properties">
+<properties encoding="UTF-8" visible="true" withescape="true"/>
+</file>
+<file filename="messages_fi_FI.properties">
+<properties encoding="UTF-8" visible="true" withescape="true"/>
+</file>
+<file filename="messages_fr_FR.properties">
+<properties encoding="UTF-8" visible="true" withescape="true"/>
+</file>
+<file filename="messages_it_IT.properties">
+<properties encoding="UTF-8" visible="true" withescape="true"/>
+</file>
+<file filename="messages_iw_IL.properties">
+<properties encoding="UTF-8" visible="true" withescape="true"/>
+</file>
+<file filename="messages_nl_NL.properties">
+<properties encoding="UTF-8" visible="false" withescape="true"/>
+</file>
+<file filename="messages_pt_BR.properties">
+<properties encoding="UTF-8" visible="false" withescape="true"/>
+</file>
+<file filename="messages_sv_SE.properties">
+<properties encoding="UTF-8" visible="true" withescape="true"/>
+</file>
+<file filename="messages_zh_HK.properties">
+<properties encoding="UTF-8" visible="true" withescape="true"/>
+</file>
+<file filename="messages_el_GR.properties">
+<properties encoding="UTF-8" visible="true" withescape="true"/>
+</file>
+<file filename="messages_ja_JP.properties">
+<properties encoding="UTF-8" visible="true" withescape="true"/>
+</file>
+</files>
+<scanner>
+<files enable="false" rootdir="./"/>
+</scanner>
+</project>
