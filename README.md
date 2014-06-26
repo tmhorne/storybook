@@ -9,7 +9,11 @@ Rather than other products, StorYBook let you write your story with the
 software of your choice, no matter whether this is OpenOffice, Word or LyX.
 StorYBook is totally independent. The only links needed are the chapter numbers.
 
+===================================================================
 
+This is from the 3.x version of StorYBook.
+The 4.x version (which I couldn't find the source for) is now up
+on sourceforge at http://ostorybook.sourceforge.net/
 
 ===================================================================
 
